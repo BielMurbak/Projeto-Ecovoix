@@ -77,7 +77,37 @@ font-size: 4rem;
 color:white;
 }
 
+.box-logo-h1 img{
+width: 25%;
+}
+
 @media screen and (max-width:430px){
+
+.box-cabecalho{
+height: 6em;
+}
+
+.box-dentro-menu-hamburguer{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+gap:2em;
+margin-top: 9.7em;
+font-size: 1.5rem;
+color:white;
+}
+
+.box-logo-h1 img{
+width: 30%;
+}
+
+
+.box-menu-hamburguer2{
+position: relative;
+left: 10em;
+bottom:13em;
+}
 
 .box-menu-hamburguer{
 display: block;
@@ -85,7 +115,6 @@ margin-right: 20px;
 display: flex;
 align-items: center;
 justify-content: center;
-
 }
 
 .box-sobre-contato{
@@ -103,13 +132,9 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 position: absolute; 
-top: 3em; 
-right: 0em;
-background-color: #26AA2F;
-padding: 1.3em;
-font-size: 1.5rem;
-z-index: 10; /* Garante que fique sobre outros elementos */
-gap:1em;
+background-color: #132511;
+width: 100%;
+height: 50%;
 }
 
 .box-logo-h1{
@@ -164,6 +189,27 @@ flex-direction: column;
 gap:3em;
 }
     
+}
+
+@media screen and (max-width:390px){
+.box-menu-hamburguer2 img{
+width: 80%;
+position: relative;
+right: 1.5em;
+}
+
+}
+
+@media screen and (max-width:370px){
+
+.box-logo-h1{
+font-size: 3rem;
+color:white;
+}
+.box-menu-hamburguer img{
+width: 80%;
+}
+
 }
 
 @media screen and (max-width:345px){

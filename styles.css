@@ -2,6 +2,10 @@
 @import url("styles/pagina-desafie-se.css");
 
 
+* {
+    box-sizing: border-box;
+}
+
 
 
     
