@@ -1,0 +1,44 @@
+.box-rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #26AA2F;
+    }
+
+.box-botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center; 
+    height: 30vh;
+    background-color: #26AA2F;
+}
+
+.titulo-rodape{
+    text-align: center;
+    font-size: 120px;
+    color: white;
+}
+
+.botao {
+    text-align: center;
+    flex: 1; 
+    margin: 0 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+  }
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    gap: 80px;
+  }
+
+.cr-texto{
+    color: white;
+    font-size: 20px;
+}
