@@ -54,4 +54,9 @@
     bottom:4em;
     }
     
-    /* Este é um comentário em CSS */
+  @media screen and (max-width:430px){
+    .container-videos {
+        display: flex;
+        flex-direction: column;
+    }
+  }
