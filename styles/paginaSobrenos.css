@@ -1,0 +1,71 @@
+.box-informacoes{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: center;
+margin-top: 5em;
+}
+
+.box-texto{
+width: 50%;
+}
+
+
+.box-texto h2{
+font-size: 5rem;
+}
+
+.box-texto p{
+text-align: center;
+font-size: 2rem;
+    
+}
+
+.box-2-pagina-titulo{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+font-size: 5rem;
+margin-top:1em;
+}
+
+.box-principal-2-pagina{
+margin-top:2em;
+display: flex;
+align-items: center;
+justify-content: center;
+gap:7em;
+}
+
+.box-3-pagina-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    margin-top: 1em;
+}
+
+.box-3-pagina-principal{
+margin-top: 3em;
+display: grid;
+grid-template-columns: 50% 50%;
+text-align: center;
+}
+
+.box-3-pagina-left{
+font-size:2rem;
+}
+
+.box-3-pagina-right{
+font-size:2rem;
+}
+
+.box-4-pagina{
+    background-color: #26AA2F;
+    margin-top: 10em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+

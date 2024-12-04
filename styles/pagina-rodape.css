@@ -1,0 +1,43 @@
+.pagina-rodape{
+    background-color: #26AA2F;
+    margin-top: 10em;
+    }
+    
+    .box-rodape-titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .box-rodape-titulo{
+    font-size:10rem;
+    position: relative;
+    top:10px;
+    color:white;
+    }
+    
+    .box-principal-texto{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    text-align: center;
+    gap:15em;
+    }
+    
+    .box-principal-texto a{
+    font-size:3em;
+    text-decoration: none;
+    color:white;
+    }
+    
+    .box-rodape-subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#FFFFFF;
+    margin-top: 4em;
+    padding:10px;
+    }
+    
