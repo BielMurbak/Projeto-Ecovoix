@@ -27,6 +27,11 @@
     gap:2em;
     margin-right: 2em;
     }
+
+    .botoes-principal {
+        text-decoration: none; 
+        color: inherit;
+    }
     
     .box-principal{
     background-image: url("../img/floresta.png");
@@ -119,8 +124,10 @@
     
     .box-sobre-contato{
     display: none;
+
     }
-    
+
+
     .box-logo-h1{
     font-size: 3.3rem;
     color:white;

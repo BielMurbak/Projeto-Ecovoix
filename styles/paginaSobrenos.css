@@ -1,9 +1,14 @@
+.box-cabecalho {
+    height: 100px;
+}
+
 .box-informacoes{
 display: flex;
 flex-direction: row-reverse;
 align-items: center;
 justify-content: center;
 margin-top: 5em;
+gap: 30px;
 }
 
 .box-texto{
@@ -35,7 +40,7 @@ margin-top:2em;
 display: flex;
 align-items: center;
 justify-content: center;
-gap:7em;
+gap:3.5em;
 }
 
 .box-3-pagina-titulo{
@@ -68,4 +73,7 @@ font-size:2rem;
     grid-template-columns: 50% 50%;
 }
 
+.box-imagem {
+    border-radius: 40px;
+}
 
