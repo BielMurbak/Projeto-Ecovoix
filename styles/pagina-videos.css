@@ -8,6 +8,10 @@
    
     }
 
+    .texto-ecovoix-p{
+        text-align: center;
+    }
+
     .container-videos {
         gap: 50px;
         display: flex;
@@ -17,8 +21,8 @@
     }
 
     .texto-ecovoix {
-        font-size: 2.6rem;
-
+        font-size: 3rem;
+        width: 74%;
 
     }
     
