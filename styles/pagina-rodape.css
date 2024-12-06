@@ -44,3 +44,21 @@
     }
     
 
+@media screen and (max-width:840px) {
+    .box-principal-texto{
+        gap: 50px;
+        row-gap: 100px;
+    }
+}
+@media screen and (max-width:440px) {
+    .box-rodape-titulo{
+        font-size: 5em;
+    }
+    .box-principal-texto{
+        font-size: 0.5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        margin-top: -20px;
+    }
+}
