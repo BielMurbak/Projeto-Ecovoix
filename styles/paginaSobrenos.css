@@ -73,7 +73,168 @@ font-size:2rem;
     grid-template-columns: 50% 50%;
 }
 
-.box-imagem {
-    border-radius: 40px;
+.box-4-pagina-left{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+background-color: #0de71c;
+font-size:8rem;
+padding-bottom: 2em;
+}
+
+.box-4-pagina-left h2{
+position: relative;
+top:1em;
+}
+
+.box-4-pagina-right{
+display: grid;
+}
+
+.box-apps{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.box-apps h2{
+font-size:1.5rem;
+margin-bottom: 10px;
+}
+
+.box-apps p{
+text-align: center;
+max-width: 80%;
+}
+    
+
+.box-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+.box-contato h2{
+    font-size:1.5rem;
+    margin-bottom: 10px;
+}
+
+.box-contato p{
+    
+        text-align: center;
+        max-width: 80%;
+    
+}
+
+.box-gmail{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.box-ajuda-suporte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box-ajuda-suporte h2{
+    font-size:1.5rem;
+margin-bottom: 10px;
+}
+
+.box-ajuda-suporte p{
+text-align: center;
+max-width: 80%;
+}
+
+html{
+    scroll-behavior: smooth;  
+}
+
+a{
+text-decoration: none;
+color:black;
+}
+
+img{
+border-radius: 1em;
+}
+
+h2{
+color:#0de71c;
+}
+
+.box-4-pagina-left h2{
+color:black;
+}
+
+.box-4-pagina-right h2{
+color:white;
+}
+
+@media screen and (max-width:430px){
+
+.box-informacoes{
+display: flex;
+flex-direction:column-reverse;
+}
+
+.box-texto{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.box-texto p {
+width: 100%;
+}
+
+.box-2-pagina-titulo{
+display: flex;
+align-items: center;
+justify-content: center;
+white-space: nowrap; 
+font-size:3rem;
+}
+
+.box-3-pagina-titulo{
+    white-space: nowrap;
+    font-size:2.8rem; 
+}
+
+.box-principal-2-pagina{
+display: flex;
+flex-direction: column;
+}
+
+.box-4-pagina-left{
+font-size:3rem;
+}
+
+.box-gmail{
+width: 100%;
+font-size:1rem;
+}
+
+.box-3-pagina-principal{
+display: flex;
+flex-direction: column;
+max-width: 96%;
+}
+
+.box-texto{
+width: 100%;
+}
+
+.box-dentro-menu-hamburguer{
+gap:20px;
+}
+
 }
 
